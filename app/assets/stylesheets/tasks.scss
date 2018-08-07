@@ -1,0 +1,47 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.info-container {
+  width: 75%;
+  margin: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px lightgray;
+}
+
+.details {
+  background-color: #FFEED6;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items : center;
+}
+
+.status {
+margin-top: 20px;
+color : darkgray;
+}
+
+.checkbox-group {
+  display : flex;
+}
+
+#task_completed {
+  margin-right : 10px;
+}
